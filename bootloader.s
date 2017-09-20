@@ -55,9 +55,6 @@ _start:                    #code entry point
     movb $'H' , %al
     movb $0x0e, %ah
     int $0x10
-    movb $'e' , %al
-    movb $0x0e, %ah
-    int $0x10
     movb $'a' , %al
     movb $0x0e, %ah
     int $0x10
