@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(BumbleHawkOs)
+project(BumbleHawkOs C ASM)
 
 set(CMAKE_C_STANDARD 11)
 
