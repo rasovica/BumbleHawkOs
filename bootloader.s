@@ -23,6 +23,9 @@ _start:                    #code entry point
     movb $'e' , %al
     movb $0x0e, %ah
     int $0x10
+    movb $' ' , %al
+    movb $0x0e, %ah
+    int $0x10
     movb $'t' , %al
     movb $0x0e, %ah
     int $0x10
@@ -30,8 +33,6 @@ _start:                    #code entry point
     movb $0x0e, %ah
     int $0x10
     movb $' ' , %al
-    movb $0x0e, %ah
-    int $0x10
     movb $0x0e, %ah
     int $0x10
     movb $'B' , %al
